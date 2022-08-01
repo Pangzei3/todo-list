@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 480px;
+    min-height: 90vh;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background-image: url(./images/bg_morning.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin: 36px 0;
+    font-size: 32px;
+    color: white;
+}
+
+.btn-reset {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 16px;
+    cursor: pointer;
+    outline: none;
+    background-color: #43a214;
+    color: white;
+    margin-top: 65px;
+}
+/* .container {
+    background-image: url(./images/bg_morning.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    width: 600px;
+    margin: 60px auto;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+} */

@@ -1,0 +1,30 @@
+.taskForm {
+    margin-bottom: 32px;
+}
+
+form input {
+    padding: 12px 26px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 320px;
+    outline: none;
+    border: 2px solid #43a214;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+form input::placeholder {
+    color: #e2e2e2;
+}
+
+.addButton {
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 14px 16px;
+    cursor: pointer;
+    outline: none;
+    background-color: #43a214;
+    color: white;
+}

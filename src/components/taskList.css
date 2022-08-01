@@ -1,0 +1,52 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 88%;
+    margin: 4px auto;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: rgb(244, 126, 42);
+    justify-content: space-between;
+    color: #e2e2e2;
+}
+
+.todo-actions {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 5px;
+}
+
+.todo-actions button {
+    margin: 3px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #e2e2e2;
+}
+
+.todo-actions input {
+    cursor: pointer;
+    transform: scale(1.5);
+    margin: 3px;
+    background-color: #e2e2e2;
+}
+
+.todo-text input {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 4px 0px 4px 3px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
